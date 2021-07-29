@@ -185,10 +185,10 @@ public class MainActivity extends AppCompatActivity {
     public void playPause(){
         play.setOnClickListener(v -> {
             if (mediaPlayer.isPlaying()){
-                play.setImageResource(R.drawable.ic_sharp_pause_24);
+                play.setImageResource(R.drawable.ic_sharp_play_arrow_24);
                 mediaPlayer.pause();
             } else {
-                play.setImageResource(R.drawable.ic_sharp_play_arrow_24);
+                play.setImageResource(R.drawable.ic_sharp_pause_24);
                 mediaPlayer.start();
             }
         });
